@@ -1,5 +1,7 @@
 # ICT Berufsbildungscenter AG 2014 - 2015
-Files from my studies at the ICT Berufsbildungscenter AG.
+# TODO add all my files
+
+## Generelle Informationen
 
 |   |  |
 |---|---|
