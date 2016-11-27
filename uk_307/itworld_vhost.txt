@@ -1,0 +1,18 @@
+<VirtualHost 127.0.0.1>
+    ServerName www.ITWorld.ch
+    ServerAlias ITWorld.ch
+    AddType text/html .shtml
+    AddHandler server-parsed .shtml
+    ServerAdmin webmaster@mvc.local
+    DocumentRoot "C:\xampp\htdocs\inf-stube14-itworld"
+
+    <Directory "C:\xampp\htdocs\inf-stube14-itworld">
+        Options Indexes FollowSymLinks
+        Options +Includes
+        AllowOverride All
+        Order allow,deny
+        Require all granted
+        Allow from All
+        DirectoryIndex index.php
+    </Directory>
+</VirtualHost>
